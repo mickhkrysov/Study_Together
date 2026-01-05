@@ -1,0 +1,1 @@
+This is the app that is made to study together online. It shows pomodoro timer and virtual avatars of your friends
