@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Transcity", typefaces, serif;
+    font-family: 'Gladriel', sans-serif;
 }
 
 body {
@@ -33,7 +33,7 @@ main {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 20px auto;
 }
 
@@ -107,7 +107,7 @@ h1 {
     margin-top: 20px;
 }
 
-#start, #stop {
+#start, #stop, #ChangeTheme, #Avatar {
     background-color: #6a2b3e;
     color: #dce2c8;
     border: none;
@@ -118,13 +118,16 @@ h1 {
     transition: all .2s ease-in;
 }
 
-#stop:hover {
+#ChangeTheme, #Avatar {
+    padding: 40px 50px;
+    margin: 15px;
+    font-size: 2rem;
+}
+
+#stop:hover, #start:hover, #ChangeTheme:hover, #Avatar:hover {
     background-color: #d1ab22;
 }
 
-#start:hover {
-    background-color: #d1ab22;
-}
 
 #timer-message {
     color: #dce2c8;

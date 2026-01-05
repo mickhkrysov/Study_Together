@@ -111,3 +111,7 @@ stopBtn.addEventListener("click", () => {
         clearInterval(myInterval)
     }
 })
+
+document.getElementById("Avatar").addEventListener("click", function() {
+    window.location.href = "avatar.html";
+});
