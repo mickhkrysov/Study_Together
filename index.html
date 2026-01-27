@@ -23,29 +23,36 @@
             </div>
 
             <main>
-                
-                <div class="pomodoro">
-                    <div id="pomodoro-timer" class="timer-display" data-duration="25.00">
-                        <h1 class="time">25:00</h1>
-                    </div>
-                    <div id="short-timer" class="timer-display" data-duration="5.00">
-                        <h1 class="time">5:00</h1>
-                    </div>
 
-                    <div id="long-timer" class="timer-display" data-duration="10.00">
-                        <h1 class="time">10:00</h1>
-                    </div>
-                </div>
+                        <div class="pomodoro">
+                            <div id="pomodoro-timer" class="timer-display" data-duration="25.00">
+                                <h1 class="time">25:00</h1>
+                            </div>
+                            <div id="short-timer" class="timer-display" data-duration="5.00">
+                                <h1 class="time">5:00</h1>
+                            </div>
+
+                            <div id="long-timer" class="timer-display" data-duration="10.00">
+                                <h1 class="time">10:00</h1>
+                            </div>
+                        </div>
 
                 
             </main>
 
-            <div class="to-do-list">
-                    <h2>To-Do List</h2>
-                    <input type="text" id="task-input" placeholder="Add a new task...">
-                    <button id="add-task-button">Add Task</button>
-                    <ul id="task-list"></ul>
+            <div id="container">
+                <div id="card">
+                     <div id="myDIV" class="header">
+                        <h2>My To Do List</h2>
+                        <input type="text" id="myInput" placeholder="Title...">
+                        <span onclick="newElement()" class="addBtn">Add</span>
+                    </div>
+                        <ul id="myUL">
+                        <li>Give gift to Aster</li>
+                        <li class="checked">Your Mom</li>
+                        </ul> 
                 </div>
+            </div>
 
 
 
@@ -61,5 +68,6 @@
         </div>
     </div>
     <script src="script.js"></script>
+    </body>
 
 </html>
